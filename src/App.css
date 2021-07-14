@@ -9,3 +9,30 @@
 .App {
   text-align: center;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+#form-input {
+  background: aqua;
+  width: 70vw;
+}
+
+.form-btn {
+  margin: 1em;
+  padding: 0.5em 1.25em;
+  border-radius: 5px;
+}
+
+li {
+  background-color: green;
+  margin: 1em;
+  padding: 0.5em;
+  border: solid;
+  text-align: center;
+  list-style-type: none;
+}

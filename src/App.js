@@ -2,26 +2,21 @@ import "./App.css";
 
 function App() {
   return (
-    <header>
-    <div className="App">
+    <div className="container">
       <form>
-        <input type="text" 
-          id="fname" 
-          name="fname"
-          placeholder="Add your to-do"
-          />
-        <button type="submit">ADD TO DO</button>
+        <input type="text" id="form-input" name="form-input" />
+        <button className="form-btn" type="submit">
+          Add to do
+        </button>
       </form>
-
-
+      <ul>
+        <li>This is a to do</li>
+        <li>This is a to do</li>
+        <li>This is a to do</li>
+        <li>This is a to do</li>
+      </ul>
     </div>
-    </header>
-    <main className="container">
-    <div className="container-div">
-      <h2 className="Todo">This is a to d</h2>
-    </div>
-
-    </main>
   );
 }
 
+export default App;

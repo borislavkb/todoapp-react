@@ -5,7 +5,7 @@ import { setConstantValue } from "typescript";
 export default function App() {
   const notes = ["cook", "code"];
 
-  const [data, setData] = useState();
+  const [data, setData] = useState([]);
 
   const listNoteItem = data.map((textContent, index) => {
     return <NoteListItem key={index} text={textContent} />;

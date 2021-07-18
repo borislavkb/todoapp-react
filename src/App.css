@@ -8,4 +8,38 @@
 
 .App {
   text-align: center;
+  padding: 1em;
+}
+
+.App-btn {
+  background-color: lightcoral;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 1em;
+  padding: 0.75em 1.25em;
+}
+
+#noteItem {
+  background-color: skyblue;
+}
+
+.Note-div {
+  border: 2px solid black;
+  padding: 1em;
+  margin: 1.5em;
+  background-color: mintcream;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Delete-btn {
+  background-color: red;
+
+  padding: 0.5em 0.75em;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.noteContent {
+  align-self: center;
 }
